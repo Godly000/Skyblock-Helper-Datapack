@@ -1,0 +1,24 @@
+{
+  "type":"minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "killer",
+          "scores": {
+              "Creeper": 1
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dragon_head"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

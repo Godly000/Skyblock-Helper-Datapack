@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "###",
+        " A "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:medium_amethyst_bud"
+        },
+        "A": {
+            "item": "minecraft:amethyst_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:large_amethyst_bud",
+        "count": 1
+    }
+}

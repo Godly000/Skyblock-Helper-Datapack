@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#g#",
+        "g#g",
+        "#g#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:stone"
+        },
+        "g": {
+            "item": "minecraft:gold_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:gold_ore",
+        "count": 1
+    }
+}

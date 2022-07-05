@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#E#",
+        "E#E",
+        "#E#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:deepslate"
+        },
+        "E": {
+            "item": "minecraft:emerald"
+        }
+    },
+    "result": {
+        "item": "minecraft:deepslate_emerald_ore",
+        "count": 1
+    }
+}

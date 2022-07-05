@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "###",
+        " A "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:amethyst_shard"
+        },
+        "A": {
+            "item": "minecraft:amethyst_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:small_amethyst_bud",
+        "count": 1
+    }
+}

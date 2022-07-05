@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:quartz_block"
+        },
+        {
+            "item": "minecraft:diorite"
+        }
+    ],
+    "result": {
+        "item": "minecraft:calcite",
+        "": 0,
+        "count": 2
+    }
+}

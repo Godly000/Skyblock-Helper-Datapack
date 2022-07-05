@@ -1,0 +1,11 @@
+{
+    "values": [
+    "minecraft:sculk_shrieker",
+    "minecraft:air",
+    "minecraft:cave_air",
+    "minecraft:void_air",
+    "minecraft:bedrock",
+    "minecraft:command_block",
+    "minecraft:reinforced_deepslate"
+    ]
+}

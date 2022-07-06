@@ -1,0 +1,144 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 36.0,
+                "min": 24.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "emerald"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 4.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{HideFlags:32,Patterns:[{Pattern:\"mr\",Color:9},{Pattern:\"bs\",Color:8},{Pattern:\"cs\",Color:7},{Pattern:\"bo\",Color:8},{Pattern:\"ms\",Color:15},{Pattern:\"hh\",Color:8},{Pattern:\"mc\",Color:8},{Pattern:\"bo\",Color:15}]},display:{Name:'{\"translate\":\"block.minecraft.ominous_banner\",\"color\":\"gold\"}'}}"
+            }
+          ],
+          "name": "white_banner"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/mansion/mob_loot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/mansion/resources"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/mansion/food"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/mansion/enchanting"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/mansion/organization"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/mansion/stone"
+        }
+      ],
+      "rolls": 3.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/mansion/enchanted_iron_armor"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/mansion/enchanted_iron_tools"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/mansion/plants"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/mansion/flowers"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/mansion/enchanted_ranged_tools"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/mansion/trading_goods"
+        }
+      ],
+      "rolls": 3.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/mansion/enchanted_diamond_armor"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/mansion/enchanted_diamond_tools"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/mansion/skyblock_rares"
+        },
+        {
+          "type": "item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "enchanted_golden_apple"
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

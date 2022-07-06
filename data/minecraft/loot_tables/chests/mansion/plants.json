@@ -61,7 +61,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:seeds"
+          "name": "minecraft:wheat_seeds"
         },
         {
           "type": "minecraft:item",

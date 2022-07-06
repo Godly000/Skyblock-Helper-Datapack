@@ -55,7 +55,7 @@
               "function": "minecraft:enchant_randomly"
             }
           ],
-          "name": "minecraft:"
+          "name": "minecraft:book"
         },
         {
           "type": "minecraft:item",
